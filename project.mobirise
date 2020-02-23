@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Roberts Menu",
-    "currentPage": "business.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "restaurantm4",
       "title": "RestaurantM4",
@@ -80,176 +80,6 @@
     }
   },
   "pages": {
-    "robertscoffeeqatar.html": {
-      "settings": {
-        "main": true,
-        "title": "Home",
-        "meta_descr": "Freshly roasted, gourmet coffee at Roberts Coffee Qatar.",
-        "header_custom": "<meta name=\"generator\" content=\"chokweb portfolio, chokweb.com\">\n<meta name=\"keywords\" content=\"chokweb, cheap webdesigner chok, web designer qatar, cheap website in qatar, qatar webdesigner, qatar digital marketing, SEO, chokbarista, roberts coffee qatar, roberts coffee menu, coffee shop near me, best coffee in town, best spanish latte, spanish latte, coffee shop business\">\n <meta name=\"author\" content=\"chok rivera\">",
-        "footer_custom": "",
-        "html_before": ""
-      },
-      "components": [
-        {
-          "alias": "mobirise4-blocks/components",
-          "_isSecondary": true,
-          "typeCompatible": "!isAMP",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background": "linear-gradient(45deg, @bg-value, @color2)"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#8d97ad"
-            },
-            ".plan-body .btn-bgr": {
-              "z-index": "0"
-            },
-            ".list-group-item": {
-              "padding": ".5rem 3.25rem",
-              "background": "transparent"
-            },
-            ".price-term": {
-              "margin-left": "-5px"
-            },
-            ".pt2": {
-              "padding-top": "2rem"
-            },
-            ".plan-favorite": {
-              "background-color": "@defaultTitleColor",
-              "width": "40%",
-              "border-radius": ".25rem",
-              "z-index": "1",
-              "position": "absolute",
-              "left": "50%",
-              "top": "0",
-              "margin-top": "-26px",
-              "margin-left": "-20%"
-            },
-            ".plan-descr": {
-              "color": "#444444"
-            },
-            ".plan-price": {
-              "margin-top": "2rem"
-            },
-            ".plan-header": {
-              "border-radius": ".25rem .25rem 0 0",
-              "overflow": "hidden",
-              "padding-right": "2rem",
-              "padding-left": "2rem"
-            },
-            ".plan-body": {
-              "border-radius": "0 0 .25rem .25rem",
-              "padding-right": "2rem",
-              "padding-left": "2rem"
-            },
-            ".plan-card": {
-              "-webkit-box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
-              "box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)"
-            },
-            ".plan": {
-              "position": "relative",
-              "max-width": "330px",
-              "padding-right": "0",
-              "padding-left": "0",
-              ".list-group-item": {
-                "position": "relative",
-                "-webkit-justify-content": "center",
-                "justify-content": "center",
-                "border": "0",
-                "&:last-child": {
-                  "border-radius": "8px"
-                }
-              },
-              "& when (@showFavorite)": {
-                "& when (@favoriteItem = '1')": {
-                  ".plan-favorite": {
-                    "display": "none"
-                  },
-                  "&:nth-child(1)": {
-                    ".plan-favorite": {
-                      "background-color": "@favoriteTitleColor",
-                      "display": "block !important"
-                    }
-                  }
-                },
-                "& when (@favoriteItem = '2')": {
-                  ".plan-favorite": {
-                    "display": "none"
-                  },
-                  "&:nth-child(2)": {
-                    ".plan-favorite": {
-                      "background-color": "@favoriteTitleColor",
-                      "display": "block !important"
-                    }
-                  }
-                },
-                "& when (@favoriteItem = '3')": {
-                  ".plan-favorite": {
-                    "display": "none"
-                  },
-                  "&:nth-child(3)": {
-                    ".plan-favorite": {
-                      "background-color": "@favoriteTitleColor",
-                      "display": "block !important"
-                    }
-                  }
-                },
-                "& when (@favoriteItem = '4')": {
-                  ".plan-favorite": {
-                    "display": "none"
-                  },
-                  "&:nth-child(4)": {
-                    ".plan-favorite": {
-                      "background-color": "@favoriteTitleColor",
-                      "display": "block !important"
-                    }
-                  }
-                }
-              }
-            },
-            ".plan-header, .plan-body": {
-              "background-color": "@cardsColor"
-            },
-            ".price-figure": {
-              "font-weight": "300",
-              "color": "#232323"
-            },
-            ".price-value": {
-              "font-weight": "300",
-              "vertical-align": "top",
-              "line-height": "1",
-              "margin-right": "-5px"
-            },
-            "@media (max-width: 992px)": {
-              ".plan": {
-                "margin-bottom": "3rem !important"
-              }
-            },
-            "@media (max-width: 550px)": {
-              ".price-figure": {
-                "font-size": "4.25rem"
-              }
-            },
-            "UL": {
-              "color": "#8d97ad"
-            }
-          },
-          "_name": "extPricingTables2",
-          "_customHTML": "<section class=\"extPricingTables\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Section Title\" name=\"showSectionTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Section Subtitle\" name=\"showSectionSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Cards Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Cards Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Price Subtitle\" name=\"showPriceSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <select title=\"Items Count\" name=\"itemsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"checkbox\" title=\"Just Favorite\" name=\"showFavorite\" checked>\n        <input type=\"color\" title=\"Favorite Color\" name=\"favoriteTitleColor\" value=\"#ff4f7b\" condition=\"showFavorite\">\n        <select title=\"Favorite Item\" name=\"favoriteItem\" condition=\"showFavorite\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Cards Title Color\" name=\"defaultTitleColor\" value=\"#188ef4\" condition=\"!showFavorite\">\n        <input type=\"color\" name=\"cardsColor\" title=\"Cards Color\" value=\"#ffffff\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/04.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#f4f8fa\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/iM-NestDPNQ\">\n        </fieldset>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#f4f8fa\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#8d97ad\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-fonts-style mbr-section-title align-center mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showSectionTitle\" data-app-selector=\".mbr-section-title\">This page currently not available</h2>\n        <h3 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-light pt-2\" mbr-theme-style=\"display-7\" mbr-if=\"showSectionSubtitle\" data-app-selector=\".mbr-section-subtitle\">Paynow before your website deleted from the system</h3>\n        \n        <div class=\"media-container-row\" mbr-class=\"{'pt2':showSectionTitle||showSectionSubtitle}\">\n            <div class=\"plan col-12 mx-3 my-2 justify-content-center\" mbr-if=\"itemsCount > 0\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-card\">\n                    <div class=\"plan-header text-center pb-4\">\n                        <h3 class=\"plan-favorite plan-favorite mbr-white mbr-fonts-style pb-3 pt-3 mb-5\" mbr-theme-style=\"display-7\" data-app-selector=\".plan-favorite\">\n                            Standart\n                        </h3>\n                        <h2 class=\"mbr-fonts-style plan-title align-center pt-5 mbr-black\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".plan-title\">Personal</h2>\n                    \n                        <h3 class=\"mbr-fonts-style plan-subtitle align-center mbr-light\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" mbr-class=\"{'pt-4':!showTitle}\" data-app-selector=\".plan-subtitle\"></h3>\n                        <div class=\"plan-price\">\n                            <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-price\">\n                                $\n                            </span>\n                            <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".plan-price .price-figure\">10</span>\n                        </div>\n                        <div mbr-text class=\"plan-descr pt-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showPriceSubtitle\" data-app-selector=\".plan-descr\">monthly</div>\n                    </div>\n                    <div class=\"plan-body\">\n                        <div class=\"plan-list pb-4 align-center\">\n                            <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                <li class=\"list-group-item\">\n                                    Credit: 2000\n                                </li>\n                                <li class=\"list-group-item\">\n                                    Rate: 7%\n                                </li>\n                                <li class=\"list-group-item\">\n                                    Term: 48 months\n                                </li>\n                                <li class=\"list-group-item\">\n                                    Term: 48 months\n                                </li>\n                            </ul>\n                        </div>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center pb-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick-subscriptions&item_name=roberts+personal&item_number=&currency_code=USD&a3=10&p3=1&t3=M&src=1\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" target=\"_blank\">Buy Now</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"plan col-12 mx-3 my-2 justify-content-center\" mbr-if=\"itemsCount > 1\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-card\">\n                    <div class=\"plan-header text-center pb-4\">\n                        <h3 class=\"plan-favorite mbr-white mbr-fonts-style pb-3 pt-3 mb-5\" mbr-theme-style=\"display-7\" data-app-selector=\".plan-favorite\">\n                            Business\n                        </h3>\n                        <h2 class=\"mbr-fonts-style plan-title align-center pt-5 mbr-black\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".plan-title\"><b>Business plan</b></h2>\n                    \n                        <h3 class=\"mbr-fonts-style plan-subtitle align-center mbr-light\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" mbr-class=\"{'pt-4':!showTitle}\" data-app-selector=\".plan-subtitle\"></h3>\n                        \n                        <div class=\"plan-price\">\n                            <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-price\">\n                                $\n                            </span>\n                            <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".plan-price .price-figure\">100</span>\n                        </div>\n                        <div mbr-text class=\"plan-descr pt-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showPriceSubtitle\" data-app-selector=\".plan-descr\">monthly</div>\n                    </div>\n                    <div class=\"plan-body\">\n                        <div class=\"plan-list pb-4 align-center\">\n                            <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                <li class=\"list-group-item\">\n                                    Credit: 2000\n                                </li>\n                                <li class=\"list-group-item\">\n                                    Rate: 7%\n                                </li>\n                                <li class=\"list-group-item\">\n                                    Term: 48 months\n                                </li>\n                                <li class=\"list-group-item\">\n                                    Term: 48 months\n                                </li>\n                            </ul>\n                        </div>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center pb-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick-subscriptions&item_name=robert+business&item_number=&currency_code=USD&a3=100&p3=1&t3=M&src=1\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" target=\"_blank\">Buy Now</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"plan col-12 mx-3 my-2 justify-content-center\" mbr-if=\"itemsCount > 2\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-card\">\n                    <div class=\"plan-header text-center pb-4\">\n                        <h3 class=\"plan-favorite mbr-white mbr-fonts-style pb-3 pt-3 mb-5\" mbr-theme-style=\"display-7\" data-app-selector=\".plan-favorite\">\n                            Premium\n                        </h3>\n                        <h2 class=\"mbr-fonts-style plan-title align-center pt-5 mbr-black\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".plan-title\">EXTEND USE</h2>\n                        <h3 class=\"mbr-fonts-style plan-subtitle align-center mbr-light\" mbr-theme-style=\"display-4\" mbr-class=\"{'pt-4':!showTitle}\" mbr-if=\"showSubtitle\" data-app-selector=\".plan-subtitle\">For 10-25 members</h3>\n                        <div class=\"plan-price\">\n                            <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-price\">\n                                $\n                            </span>\n                            <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".plan-price .price-figure\">\n                                90,99\n                            </span>\n                        </div>\n                        <div mbr-text class=\"plan-descr pt-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showPriceSubtitle\" data-app-selector=\".plan-descr\">One time payment</div>\n                    </div>\n                    <div class=\"plan-body\">\n                        <div class=\"plan-list pb-4 align-center\">\n                            <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                <li class=\"list-group-item\">\n                                    Credit: 2000\n                                </li>\n                                <li class=\"list-group-item\">\n                                    Rate: 7%\n                                </li>\n                                <li class=\"list-group-item\">\n                                    Term: 48 months\n                                </li>\n                                <li class=\"list-group-item\">\n                                    Term: 48 months\n                                </li>\n                            </ul>\n                        </div>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center pb-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobirise.com\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\">Buy Now</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rRlcgI7nMA",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "extPricingTables2-1c"
-        }
-      ]
-    },
     "page2.html": {
       "settings": {
         "title": "home",
@@ -1413,6 +1243,176 @@
           "_once": false,
           "_params": {},
           "_anchor": "extPricingTables2-1d"
+        }
+      ]
+    },
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "Freshly roasted, gourmet coffee at Roberts Coffee Qatar.",
+        "header_custom": "<meta name=\"generator\" content=\"chokweb portfolio, chokweb.com\">\n<meta name=\"keywords\" content=\"chokweb, cheap webdesigner chok, web designer qatar, cheap website in qatar, qatar webdesigner, qatar digital marketing, SEO, chokbarista, roberts coffee qatar, roberts coffee menu, coffee shop near me, best coffee in town, best spanish latte, spanish latte, coffee shop business\">\n <meta name=\"author\" content=\"chok rivera\">",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "!isAMP",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background": "linear-gradient(45deg, @bg-value, @color2)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#8d97ad"
+            },
+            ".plan-body .btn-bgr": {
+              "z-index": "0"
+            },
+            ".list-group-item": {
+              "padding": ".5rem 3.25rem",
+              "background": "transparent"
+            },
+            ".price-term": {
+              "margin-left": "-5px"
+            },
+            ".pt2": {
+              "padding-top": "2rem"
+            },
+            ".plan-favorite": {
+              "background-color": "@defaultTitleColor",
+              "width": "40%",
+              "border-radius": ".25rem",
+              "z-index": "1",
+              "position": "absolute",
+              "left": "50%",
+              "top": "0",
+              "margin-top": "-26px",
+              "margin-left": "-20%"
+            },
+            ".plan-descr": {
+              "color": "#444444"
+            },
+            ".plan-price": {
+              "margin-top": "2rem"
+            },
+            ".plan-header": {
+              "border-radius": ".25rem .25rem 0 0",
+              "overflow": "hidden",
+              "padding-right": "2rem",
+              "padding-left": "2rem"
+            },
+            ".plan-body": {
+              "border-radius": "0 0 .25rem .25rem",
+              "padding-right": "2rem",
+              "padding-left": "2rem"
+            },
+            ".plan-card": {
+              "-webkit-box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
+              "box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)"
+            },
+            ".plan": {
+              "position": "relative",
+              "max-width": "330px",
+              "padding-right": "0",
+              "padding-left": "0",
+              ".list-group-item": {
+                "position": "relative",
+                "-webkit-justify-content": "center",
+                "justify-content": "center",
+                "border": "0",
+                "&:last-child": {
+                  "border-radius": "8px"
+                }
+              },
+              "& when (@showFavorite)": {
+                "& when (@favoriteItem = '1')": {
+                  ".plan-favorite": {
+                    "display": "none"
+                  },
+                  "&:nth-child(1)": {
+                    ".plan-favorite": {
+                      "background-color": "@favoriteTitleColor",
+                      "display": "block !important"
+                    }
+                  }
+                },
+                "& when (@favoriteItem = '2')": {
+                  ".plan-favorite": {
+                    "display": "none"
+                  },
+                  "&:nth-child(2)": {
+                    ".plan-favorite": {
+                      "background-color": "@favoriteTitleColor",
+                      "display": "block !important"
+                    }
+                  }
+                },
+                "& when (@favoriteItem = '3')": {
+                  ".plan-favorite": {
+                    "display": "none"
+                  },
+                  "&:nth-child(3)": {
+                    ".plan-favorite": {
+                      "background-color": "@favoriteTitleColor",
+                      "display": "block !important"
+                    }
+                  }
+                },
+                "& when (@favoriteItem = '4')": {
+                  ".plan-favorite": {
+                    "display": "none"
+                  },
+                  "&:nth-child(4)": {
+                    ".plan-favorite": {
+                      "background-color": "@favoriteTitleColor",
+                      "display": "block !important"
+                    }
+                  }
+                }
+              }
+            },
+            ".plan-header, .plan-body": {
+              "background-color": "@cardsColor"
+            },
+            ".price-figure": {
+              "font-weight": "300",
+              "color": "#232323"
+            },
+            ".price-value": {
+              "font-weight": "300",
+              "vertical-align": "top",
+              "line-height": "1",
+              "margin-right": "-5px"
+            },
+            "@media (max-width: 992px)": {
+              ".plan": {
+                "margin-bottom": "3rem !important"
+              }
+            },
+            "@media (max-width: 550px)": {
+              ".price-figure": {
+                "font-size": "4.25rem"
+              }
+            },
+            "UL": {
+              "color": "#8d97ad"
+            }
+          },
+          "_name": "extPricingTables2",
+          "_customHTML": "<section class=\"extPricingTables\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Section Title\" name=\"showSectionTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Section Subtitle\" name=\"showSectionSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Cards Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Cards Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Price Subtitle\" name=\"showPriceSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <select title=\"Items Count\" name=\"itemsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"checkbox\" title=\"Just Favorite\" name=\"showFavorite\" checked>\n        <input type=\"color\" title=\"Favorite Color\" name=\"favoriteTitleColor\" value=\"#ff4f7b\" condition=\"showFavorite\">\n        <select title=\"Favorite Item\" name=\"favoriteItem\" condition=\"showFavorite\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Cards Title Color\" name=\"defaultTitleColor\" value=\"#188ef4\" condition=\"!showFavorite\">\n        <input type=\"color\" name=\"cardsColor\" title=\"Cards Color\" value=\"#ffffff\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/04.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#f4f8fa\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/iM-NestDPNQ\">\n        </fieldset>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#f4f8fa\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#8d97ad\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-fonts-style mbr-section-title align-center mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showSectionTitle\" data-app-selector=\".mbr-section-title\">This page currently not available</h2>\n        <h3 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-light pt-2\" mbr-theme-style=\"display-7\" mbr-if=\"showSectionSubtitle\" data-app-selector=\".mbr-section-subtitle\">Paynow before your website deleted from the system</h3>\n        \n        <div class=\"media-container-row\" mbr-class=\"{'pt2':showSectionTitle||showSectionSubtitle}\">\n            <div class=\"plan col-12 mx-3 my-2 justify-content-center\" mbr-if=\"itemsCount > 0\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-card\">\n                    <div class=\"plan-header text-center pb-4\">\n                        <h3 class=\"plan-favorite plan-favorite mbr-white mbr-fonts-style pb-3 pt-3 mb-5\" mbr-theme-style=\"display-7\" data-app-selector=\".plan-favorite\">\n                            Standart\n                        </h3>\n                        <h2 class=\"mbr-fonts-style plan-title align-center pt-5 mbr-black\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".plan-title\">Personal</h2>\n                    \n                        <h3 class=\"mbr-fonts-style plan-subtitle align-center mbr-light\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" mbr-class=\"{'pt-4':!showTitle}\" data-app-selector=\".plan-subtitle\"></h3>\n                        <div class=\"plan-price\">\n                            <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-price\">\n                                $\n                            </span>\n                            <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".plan-price .price-figure\">10</span>\n                        </div>\n                        <div mbr-text class=\"plan-descr pt-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showPriceSubtitle\" data-app-selector=\".plan-descr\">monthly</div>\n                    </div>\n                    <div class=\"plan-body\">\n                        <div class=\"plan-list pb-4 align-center\">\n                            <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                <li class=\"list-group-item\">\n                                    Credit: 2000\n                                </li>\n                                <li class=\"list-group-item\">\n                                    Rate: 7%\n                                </li>\n                                <li class=\"list-group-item\">\n                                    Term: 48 months\n                                </li>\n                                <li class=\"list-group-item\">\n                                    Term: 48 months\n                                </li>\n                            </ul>\n                        </div>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center pb-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick-subscriptions&item_name=roberts+personal&item_number=&currency_code=USD&a3=10&p3=1&t3=M&src=1\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" target=\"_blank\">Buy Now</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"plan col-12 mx-3 my-2 justify-content-center\" mbr-if=\"itemsCount > 1\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-card\">\n                    <div class=\"plan-header text-center pb-4\">\n                        <h3 class=\"plan-favorite mbr-white mbr-fonts-style pb-3 pt-3 mb-5\" mbr-theme-style=\"display-7\" data-app-selector=\".plan-favorite\">\n                            Business\n                        </h3>\n                        <h2 class=\"mbr-fonts-style plan-title align-center pt-5 mbr-black\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".plan-title\"><b>Business plan</b></h2>\n                    \n                        <h3 class=\"mbr-fonts-style plan-subtitle align-center mbr-light\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" mbr-class=\"{'pt-4':!showTitle}\" data-app-selector=\".plan-subtitle\"></h3>\n                        \n                        <div class=\"plan-price\">\n                            <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-price\">\n                                $\n                            </span>\n                            <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".plan-price .price-figure\">100</span>\n                        </div>\n                        <div mbr-text class=\"plan-descr pt-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showPriceSubtitle\" data-app-selector=\".plan-descr\">monthly</div>\n                    </div>\n                    <div class=\"plan-body\">\n                        <div class=\"plan-list pb-4 align-center\">\n                            <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                <li class=\"list-group-item\">\n                                    Credit: 2000\n                                </li>\n                                <li class=\"list-group-item\">\n                                    Rate: 7%\n                                </li>\n                                <li class=\"list-group-item\">\n                                    Term: 48 months\n                                </li>\n                                <li class=\"list-group-item\">\n                                    Term: 48 months\n                                </li>\n                            </ul>\n                        </div>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center pb-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick-subscriptions&item_name=robert+business&item_number=&currency_code=USD&a3=100&p3=1&t3=M&src=1\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" target=\"_blank\">Buy Now</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"plan col-12 mx-3 my-2 justify-content-center\" mbr-if=\"itemsCount > 2\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-card\">\n                    <div class=\"plan-header text-center pb-4\">\n                        <h3 class=\"plan-favorite mbr-white mbr-fonts-style pb-3 pt-3 mb-5\" mbr-theme-style=\"display-7\" data-app-selector=\".plan-favorite\">\n                            Premium\n                        </h3>\n                        <h2 class=\"mbr-fonts-style plan-title align-center pt-5 mbr-black\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".plan-title\">EXTEND USE</h2>\n                        <h3 class=\"mbr-fonts-style plan-subtitle align-center mbr-light\" mbr-theme-style=\"display-4\" mbr-class=\"{'pt-4':!showTitle}\" mbr-if=\"showSubtitle\" data-app-selector=\".plan-subtitle\">For 10-25 members</h3>\n                        <div class=\"plan-price\">\n                            <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-price\">\n                                $\n                            </span>\n                            <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".plan-price .price-figure\">\n                                90,99\n                            </span>\n                        </div>\n                        <div mbr-text class=\"plan-descr pt-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showPriceSubtitle\" data-app-selector=\".plan-descr\">One time payment</div>\n                    </div>\n                    <div class=\"plan-body\">\n                        <div class=\"plan-list pb-4 align-center\">\n                            <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                <li class=\"list-group-item\">\n                                    Credit: 2000\n                                </li>\n                                <li class=\"list-group-item\">\n                                    Rate: 7%\n                                </li>\n                                <li class=\"list-group-item\">\n                                    Term: 48 months\n                                </li>\n                                <li class=\"list-group-item\">\n                                    Term: 48 months\n                                </li>\n                            </ul>\n                        </div>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center pb-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobirise.com\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\">Buy Now</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rRlcgI7nMA",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "extPricingTables2-1c"
         }
       ]
     }
